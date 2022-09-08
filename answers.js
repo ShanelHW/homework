@@ -5,13 +5,15 @@ console.log(`My comfort level: 5`)
 ////////////////////////////////
 // Easy Going
 ////////////////////////////////
-for (let index = 0; index < 20; index++) {
+for (let index = 1; index <= 20; index++) {
     console.log(index);
 }
 ////////////////////////////////
 // Get Even
 ////////////////////////////////
-
+for (let index = 0; index < 200; index+=2) {
+    console.log(index);
+}
 
 ////////////////////////////////
 // Fizz Buzz
