@@ -114,6 +114,23 @@ console.log(whereIsWaldo[2][1][1])
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+for (let index = 0; index < 20; index++) {
+   console.log("Love me, pet me! HSSSSSS!")    
+   if (index%2==0) {
+    //if even do things
+    rand = Math.floor(Math.random()*100);
+    if (rand >=60) {
+        console.log("...human...why you taking pictures of me?...")
+    } else if(rand <= 30) {
+        console.log("...the catnip made me do it...")
+    }    
+    else{
+        console.log("...why does the red dot always get away...")
+    }
+   } else {
+    //nothing happens for odd
+   } 
+    }
 
 ////////////////////////////////
 //  Find the Median
