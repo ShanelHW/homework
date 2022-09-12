@@ -45,7 +45,10 @@ wolfy[0] = `Gameboy`
 ////////////////////////////////
 // Yell at the Ninja Turtles
 ////////////////////////////////
-
+let ninjaTurtles = [ 'Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for (const name of ninjaTurtles) {
+    console.log(name.toUpperCase());
+}
 
 ////////////////////////////////
 // Methods, Revisited
